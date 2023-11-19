@@ -1,7 +1,7 @@
 export default function Hero() {
     return(
         <>
-        <div className="hero">
+        <div className="hero" style={{backgroundImage: `url("/caught-in-joy-ptVBlniJi50-unsplash.jpg")`}}>
             <div className="wrapper-hero">
                 <div className="box-text">
                     <h1>Hello my name is Hilman</h1>
