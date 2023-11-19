@@ -61,9 +61,14 @@ nav ul a {
 }
 
 .hero .wrapper-hero .box-text {
-  width: 70%;
+  width: 30%;
   color: white;
   text-align: center;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.90);
+}
+
+.hero .wrapper-hero .box-text h1 {
+  padding-bottom: 20px;
 }
 
 /* Hero End Section */
