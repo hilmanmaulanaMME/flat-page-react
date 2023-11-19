@@ -1,0 +1,197 @@
+* {
+  width: 100%;
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  /* background-color: black; */
+}
+
+body {
+  background-color: black;
+}
+
+/* Navbar Start Section */
+
+nav {
+  margin: 0;
+  width: 100%;
+  height: 70px;
+  border-bottom: 2px solid;
+  border-color: red;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+}
+
+nav ul {
+  text-align: center;
+  padding: 0;
+  display: flex;
+  list-style-type: none;
+  margin: 0;
+}
+
+nav ul a {
+  text-decoration: none;
+  color: white;
+}
+
+/* Navbar End Section */
+
+/* Hero Start Section */
+
+.hero {
+  margin: 0;
+  width: auto;
+  height: 500px;
+  background-image: url('C:\Users\Legion\Desktop\Purwadhika\Module-2\flat-page-exercise\public\caught-in-joy-ptVBlniJi50-unsplash.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.hero .wrapper-hero {
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0,0,0,0.35);
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center ;
+}
+
+.hero .wrapper-hero .box-text {
+  width: 70%;
+  color: white;
+  text-align: center;
+}
+
+/* Hero End Section */
+
+/* Services Start Section */
+
+.services {
+  padding: 20px;
+  margin: 0;
+  background-color: black;
+  width: auto;
+  display: flex;
+}
+
+.services .services-box {
+  flex: 1;
+  color: white;
+  display: block;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+}
+
+.services .services-box .box-img {
+  width: 100%;
+  height: 150px;
+  margin-bottom: 10px;
+}
+
+.services .services-box .box-img .img {
+  width: 100%;
+  height: 100%;
+  background-color: #dedede;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  border-radius: 5px;
+}
+
+.services .services-box .box-text {
+  width: 100%;
+  height: auto;
+  position: relative;
+}
+
+.services .services-box .box-text h3 {
+  margin-bottom: 5px;
+}
+
+.services .services-box .box-text p {
+  font-size: 13px;
+}
+
+
+/* Services End Section */
+
+/* About Start Section */
+
+.about {
+  width: 100%;
+  height: auto;
+  position: relative;
+  display: flex;
+  flex-basis: 50%;
+  color: white;
+}
+
+.about .wrapper-about {
+  width: 100%;
+}
+
+.about .wrapper-about.about-left {
+  position: relative;
+  padding: 20px;
+}
+
+.about .wrapper-about.about-left .box-img {
+  width: 100%;
+  height: 300px;
+}
+
+.about .wrapper-about.about-left .box-img .img {
+  width: 100%;
+  height: 100%;
+  background-color: #dedede;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  border-radius: 5px;
+}
+
+.about .wrapper-about.about-right {
+  position: relative;
+  padding: 20px;
+  height: a;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* About End Section */
+
+/* Footer Start Section */
+
+footer {
+  margin: 0;
+  width: 100%;
+  height: 70px;
+  border-top: 2px solid;
+  border-color: red;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+}
+
+footer ul {
+  text-align: center;
+  padding: 0;
+  display: flex;
+  list-style-type: none;
+  margin: 0;
+}
+
+footer ul a {
+  text-decoration: none;
+  color: white;
+}
+/* Footer End Section */
